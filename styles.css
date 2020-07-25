@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.welcome {
+    background-image: url("backgrounds/h_img.jpg");
+    width: 100%;
+    color: white; 
+    background-size: cover;  
+    height: 950px;
+    
+}
+.serv {
+    background-image: url("backgrounds/s_image.jpg");
+    width: 100%;
+    color: white;
+    height: 400px;
+}
+.cont {
+    background-image: url("backgrounds/c_image.jpg");
+    color: white;
+    height: 400px;
+}
+.footer {
+    text-align: center;
+}
