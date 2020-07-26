@@ -1,3 +1,6 @@
+body {
+    font-family: 'Poppins';
+}
 h1 {
     text-align: center;
 }
@@ -7,6 +10,26 @@ h3 {
 h2 {
     text-align: center;
 }
+.title {
+    position: absolute ;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,50%);
+
+}
+.logo {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.mouse {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 .welcome {
     background-image: url("images/backgrounds/h_img.jpg");
     width: 100%;
@@ -45,8 +68,23 @@ h2 {
 }
 #h1text, #h2text, #h3text, #h4text, #h5text, #h6text, #h7text, #h8text{
     display: none;
+    position: absolute;
+    margin-top: -220px;
+    margin-left: 20px;
+   
+    color:black;
+    background-color: white;
+    border-style: solid;
+    border-width: 100px 10px;
+    border-color: white;
+    opacity: 0.7;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 0rem;
+    font-weight: bold;
+
 }
 
-@media  screen and (max-width: 800px) {
+@media  screen and (max-width: 768px) {
     
 }
