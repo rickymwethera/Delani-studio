@@ -10,6 +10,7 @@ h2 {
 .welcome {
     background-image: url("images/backgrounds/h_img.jpg");
     width: 100%;
+    
     color: white; 
     background-size: cover;  
     height: 950px;
@@ -32,7 +33,7 @@ h2 {
 .developmentText {
     display: none;
 }
-#productText {
+.productText {
     display: none;
 }
 .footer {
@@ -44,4 +45,8 @@ h2 {
 }
 #h1text, #h2text, #h3text, #h4text, #h5text, #h6text, #h7text, #h8text{
     display: none;
+}
+
+@media  screen and (max-width: 800px) {
+    
 }

@@ -51,3 +51,20 @@ $(document).ready(function() {
     $("#h8text").hide("");
   });
 });
+$(document).ready(function() {
+  $("#devid").click(function(){
+    $(".developmentText").toggle(1000);
+    $(".devPhoto").toggle();
+  
+   
+  });
+  $("#desid").click(function(){
+    $(".designText").toggle(1000);
+    $(".designPhoto").toggle();
+  });
+
+  $("#prodid").click(function(){
+    $(".productText").toggle(1000);
+    $(".productImage").toggle();
+  });
+});

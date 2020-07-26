@@ -7,17 +7,20 @@
     <link href="styles.css" rel="stylesheet">
     <script src="js/jquery.js"></script> 
     <script src="js/main.js"></script>
+    <link href="https://fonts.google.com/specimen/Slabo+27px?selection.family=Slabo+27px"rel="stylesheet">
     
     
     <title>Delani Studios</title>
 </head>
 <body>
  <div class="welcome">
-    
-       
-        <h1><b>WELCOME TO DELANI STUDIO</b></h1>
+    <div class="row">
+        <div class="col-md-12">
+    <img src="images/logo/logo.png" ></div>
+    </div><br><br>
+       <h1><b>WELCOME TO DELANI STUDIO</b></h1>
         <h3>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h3>
-    
+    <img src="images/mouse_click.png">
 </div>
 <br>
 <div class="container">
@@ -43,8 +46,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <img src="images/services_icons/design_icon.png">
-                <p>DESIGN</p>
+                <div id="desid">
+                <div class="designPhoto">
+                <img src="images/services_icons/design_icon.png"></div>
+                <p><b>DESIGN</b></p>
                 <div class="designText">
                     <p>Our design practice offers a full range of services including
                         brand strategy, interaction and visual design and user experience testing.<br>
@@ -53,35 +58,36 @@
                     </p>
                 </div>
             </div>
+            </div>
             <div class="col-md-4">
-                <div class="devPhoto"></div>
-                <img src="images/services_icons/dev_icon.png">
-                <p>DEVELOPMENT</p>
+                <div id="devid">
+                <div class="devPhoto">
+                <img src="images/services_icons/dev_icon.png"></div>
+                <p><b>DEVELOPMENT</b></p>
                 <div class="developmentText">
                     <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.<br>
                     They collaborate with your team to write, and improve code on 
                 a daily basis, using proven practices such as test-driven development and pair programming. </p>
                 </div>
             </div>
+            </div>
             <div class="col-md-4">
-                
-                <div id="productImage">
-                <img src="images/services_icons/product_icon.png">
-                
-                <p>PRODUCT MANAGEMENT</p>
-                </div>
-                <div id="productText">
+                <div id="prodid">
+                <div class="productImage">
+                <img src="images/services_icons/product_icon.png"></div>
+                <p><b>PRODUCT MANAGEMENT</b></p>
+                <div class="productText">
                     <p>Planning and development is iterative. Because we are 
                         constantly coding and testing, the products we build are always ready to go live.
                         <br>
                         This iterative process allows for changes as business requirements evolve.
                     </p>
                 </div>
-                
+                </div>
             </div>
         </div>
     </div>
-
+  
     <h2><b>PORTFOLIO</b></h2>
     <div class="container">
         <div class="row">
@@ -140,6 +146,7 @@
             </div>
         </div>
     </div>
+    
     <br>
     <br>
 <div class="cont">
