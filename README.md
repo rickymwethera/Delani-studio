@@ -1,5 +1,5 @@
-# DELANI STUDIIO
-#### {Brief description of application}, {Date of current version}
+# DELANI STUDIO
+#### This is a studio website that contains the portfolio and contacts
 #### By Ricky Mwethera
 ## Description
 This is a landing page for the delani studio website that contains the portfolio. It allows the user to view the projects that have been done and contact the company in case of any enquiries.
