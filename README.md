@@ -1,6 +1,8 @@
 # DELANI STUDIO
 #### This is a studio website that contains the portfolio and contacts
 #### By Ricky Mwethera
+## Live Link
+https://rickymwethera.github.io/Delani-studio/
 ## Description
 This is a landing page for the delani studio website that contains the portfolio. It allows the user to view the projects that have been done and contact the company in case of any enquiries.
 ## Setup/Installation Requirements
