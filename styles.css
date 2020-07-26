@@ -42,3 +42,6 @@ h2 {
     margin: 10px;
     width: 100%;
 }
+#h1text, #h2text, #h3text, #h4text, #h5text, #h6text, #h7text, #h8text{
+    display: none;
+}
