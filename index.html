@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
+    <script src="js/jquery.js"></script> 
+    <script src="js/main.js"></script>
+    
     
     <title>Delani Studios</title>
 </head>
@@ -62,10 +65,11 @@
             </div>
             <div class="col-md-4">
                 
-                
-                <img id="productPhoto" src="images/services_icons/product_icon.png">
+                <div id="productImage">
+                <img src="images/services_icons/product_icon.png">
                 
                 <p>PRODUCT MANAGEMENT</p>
+                </div>
                 <div id="productText">
                     <p>Planning and development is iterative. Because we are 
                         constantly coding and testing, the products we build are always ready to go live.
@@ -77,36 +81,41 @@
             </div>
         </div>
     </div>
+
     <h2><b>PORTFOLIO</b></h2>
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <img src="images/portfolio/work4.jpg">
+                <div class="h1">
+                <img id = "img1"src="images/portfolio/work4.jpg">
+                <div id="h1text">UPCOMING PROJECT</div>
+                </div>
+                
             </div>
             <div class="col-md-3">
-                <img src="images/portfolio/work3.jpg">
+                <img id="img2" src="images/portfolio/work3.jpg">
             </div>
             <div class="col-md-3">
-                <img src="images/portfolio/work2.jpg">
+                <img id="img3"src="images/portfolio/work2.jpg">
             </div>
             
             <div class="col-md-3">
-                <img src="images/portfolio/work1.jpg">
+                <img id="img4"src="images/portfolio/work1.jpg">
             </div>
         </div>
         <br>
         <div class="row">
             <div class="col-md-3">
-                <img src="images/portfolio/work5.jpg">
+                <img id="img5"src="images/portfolio/work5.jpg">
             </div>
             <div class="col-md-3">
-                <img src="images/portfolio/work6.jpg">
+                <img id= "img6"src="images/portfolio/work6.jpg">
             </div>
             <div class="col-md-3">
-                <img src="images/portfolio/work7.jpg">
+                <img id="img7"src="images/portfolio/work7.jpg">
             </div>
             <div class="col-md-3">
-                <img src="images/portfolio/work8.jpg">
+                <img id="img8"src="images/portfolio/work8.jpg">
             </div>
         </div>
     </div>
@@ -114,14 +123,20 @@
     <br>
 <div class="cont">
     <h2><b>CONTACT US</b></h2>
-    <div class="container">
-    <form>
-        <input type="text" id="name" placeholder="Name...">
+  
+     <div class="container">
+        <div class="form"> 
+            
+        <input type="text"  id="name" placeholder="Name..">
         
-        <input type="text" id="email" placeholder="Email...">
-        <input type="text" id="message" placeholder="Type your message here...">
-        
-    </form>
+        <input type="text" id="email" placeholder="E-mail.."><br><br>
+    
+        <textarea id="message" placeholder="Your message here..."></textarea><br><br>
+    
+        <input id="submit" type="button" class="btn btn-primary" value="SUBMIT" onclick="submit();">     
+    
+            
+        </div>   
     </div>
 </div>
 <br>
@@ -162,7 +177,6 @@
     2019
 </div>
 
-<script src="js/main.js"></script>
-<script src="js/jquery.js"></script>
+
 </body>
 </html>
